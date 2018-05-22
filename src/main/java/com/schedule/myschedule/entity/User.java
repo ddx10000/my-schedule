@@ -23,5 +23,9 @@ public class User extends BaseModel {
         this.userName = userName;
         this.passWord = passWord;
     }
+
+    public User(String userName) {
+        this.userName = userName;
+    }
 }
 
